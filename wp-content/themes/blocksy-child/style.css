@@ -6,7 +6,7 @@ Description: My custom child theme for Blocksy
 Version: 1.0
 */
 
-@import url("/wp-content/themes/blocksy/style.css"); /* Optional – only needed if you want parent styles loaded manually */
+@import url("https://guideoverguess.info/wp-content/themes/blocksy/style.css"); /* Optional – only needed if you want parent styles loaded manually */
 
 .single-post .ct-container {
   display: flex;
