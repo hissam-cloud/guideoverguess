@@ -1,0 +1,35 @@
+/*
+Theme Name: Blocksy Child
+Template: blocksy
+Author: You
+Description: My custom child theme for Blocksy
+Version: 1.0
+*/
+
+@import url("https://guideoverguess.info/wp-content/themes/blocksy/style.css"); /* Optional – only needed if you want parent styles loaded manually */
+
+.single-post .ct-container {
+  display: flex;
+  gap: 40px; /* space between content and sidebar */
+}
+
+.single-post .hero-section.is-width-constrained { /* heading section */
+  text-align: center;
+}
+
+
+.single-post .ct-sidebar {
+  width: 280px;
+  margin-right: 60px; /* lower = sidebar moves to the right */
+}
+
+.single-post article {
+  flex: 1;
+  padding-left: 0; /* Default for mobile */
+}
+
+@media (min-width: 768px) {
+  .single-post article {
+    padding-left: 110px; /* Desktop only */
+  }
+}
