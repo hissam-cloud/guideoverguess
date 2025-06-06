@@ -14,4 +14,4 @@ Disallow: /author/
 Disallow: /*?
 Allow: /wp-content/uploads/
 
-Sitemap: https://guideoverguess.info/sitemap.xml
+Sitemap: https://guideoverguess.info/sitemap_index.xml
