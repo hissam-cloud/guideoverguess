@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://guideoverguess.info/sitemap_index.xml
+Sitemap: https://guideoverguess.info/sitemap.xml
